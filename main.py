@@ -10,7 +10,7 @@ user = 'FabianoExecFINAL'
 cont = 0
 
 #Auth Firebase
-cred = credentials.Certificate("example.json")
+cred = credentials.Certificate("firebase-adminsdk-example.json")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
